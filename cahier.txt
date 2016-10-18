@@ -1,0 +1,39 @@
+description :
+ - roguelike plateforme vertical basique avec génération aléatoire de niveaux
+ -
+mvp :
+  - mouvement
+  - collision
+  - physique
+  - génération procédurale carte
+  - début / fin de niveau
+  - chapeau
+
+
+objectifs secondaires :
+  - "contrôle" de la map afin qu'elle soit cohérente et jouable
+  - dangers environnementaux
+  - ennemis
+  - creuser
+  - commerce
+  - scoring
+  - timer
+  - sprites
+  - son
+
+si on a vraiment le temps
+  - commerce
+  - pickups (arme, armure, pièces)
+  - son pas dégueulasse
+  - sprites pas dégueulasses
+  - bossfight
+
+si on a vraiment vraiment le temps
+  - true last boss
+
+points chauds
+  - game manager solide
+  - collision
+  - physique
+  - bonne génération aléatoire
+  - qt
