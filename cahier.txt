@@ -1,4 +1,4 @@
-description :
+﻿description :
  - roguelike plateforme vertical basique avec génération aléatoire de niveaux
  -
 mvp :
@@ -37,3 +37,4 @@ points chauds
   - physique
   - bonne génération aléatoire
   - qt
+
