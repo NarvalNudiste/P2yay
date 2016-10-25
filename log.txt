@@ -1,0 +1,8 @@
+25/10/2016
+yo les poulets, j'ai rajouté un projet qt "test2D" qui implémente un début de map. Ca a l'air de bien marcher, vous pouvez jeter un oeil ..
+en gros ça marche avec 3 objets .. un objet tile : qgraphicsrectitem, un objet map[width][height] qui contient des pointeurs sur tiles, 
+et un mapGenerator qui random la valeur des tiles dans la map, qui "lisse" les trous, puis qui les affiche .. j'ai fait un test avec des sprites, ça marche aussi même si ils sont deg.
+Dans createmap, vous pouvez voir que j'ai commenté la vraie instantiation, mais elle marche et surtout on garde une ref sur les blocs.
+donc possibilité de les virer, de les déplacer, bref d'agir dessus.
+voilà, j'vais faire cette chiasse de programmation concurrente, des bisous
+-guillaume 
